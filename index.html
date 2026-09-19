@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Foodie - Food Delivery App UX Case Study">
+  <title>Foodie — Food Delivery App UX Case Study</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="logo" href="#home">Food<span>ie</span></a>
+    <nav>
+      <a href="#research">Research</a>
+      <a href="#flow">User Flow</a>
+      <a href="#screens">UI Screens</a>
+      <a href="#system">Design System</a>
+      <a href="#results">Results</a>
+    </nav>
+    <a class="btn small" href="#prototype">Prototype</a>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">KARMIX TECH • UI/UX INTERNSHIP PROJECT 04</p>
+        <h1>Food delivery,<br><span>made simpler.</span></h1>
+        <p class="lead">A mobile-first UX case study focused on helping users discover food quickly, make confident choices, and complete checkout with less friction.</p>
+        <div class="actions">
+          <a class="btn" href="#screens">Explore the design</a>
+          <a class="btn ghost" href="#research">View case study</a>
+        </div>
+        <div class="metrics">
+          <div><strong>01</strong><span>Research</span></div>
+          <div><strong>02</strong><span>Wireframes</span></div>
+          <div><strong>03</strong><span>High-fidelity UI</span></div>
+          <div><strong>04</strong><span>Prototype</span></div>
+        </div>
+      </div>
+      <div class="phone-wrap">
+        <div class="phone">
+          <div class="notch"></div>
+          <div class="phone-screen">
+            <div class="mini-top"><b>Good evening 👋</b><span>⌖</span></div>
+            <div class="mini-search">⌕ &nbsp; Search for dishes or restaurants</div>
+            <div class="mini-banner">20% OFF<br><small>on your first order</small></div>
+            <h4>Popular near you</h4>
+            <div class="food-row">
+              <div class="food-card">🍕<b>Pizza</b><small>25 min</small></div>
+              <div class="food-card">🍔<b>Burgers</b><small>20 min</small></div>
+              <div class="food-card">🍜<b>Noodles</b><small>30 min</small></div>
+            </div>
+            <div class="restaurant">
+              <span class="food-icon">🍛</span><div><b>Spice Garden</b><small>Indian • 4.7 ★ • 30 min</small></div><span>♡</span>
+            </div>
+            <div class="restaurant">
+              <span class="food-icon">🥗</span><div><b>Green Bowl</b><small>Healthy • 4.6 ★ • 25 min</small></div><span>♡</span>
+            </div>
+            <div class="bottom-nav"><span>⌂<small>Home</small></span><span>⌕<small>Search</small></span><span>♡<small>Saved</small></span><span>◉<small>Orders</small></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="research" class="section">
+      <p class="eyebrow">01 — USER RESEARCH</p>
+      <h2>Designing around real user needs</h2>
+      <p class="section-intro">The research phase focused on common food-ordering frustrations and the moments where users need the most clarity.</p>
+      <div class="grid three">
+        <article class="card"><span class="icon">🔎</span><h3>Discovery</h3><p>Users want fast search, clear categories, useful filters and relevant restaurant suggestions.</p></article>
+        <article class="card"><span class="icon">🧾</span><h3>Decision making</h3><p>Ratings, delivery time, price and food details help users feel confident before adding an item.</p></article>
+        <article class="card"><span class="icon">⚡</span><h3>Checkout</h3><p>A simple cart, visible address and payment summary reduce unnecessary steps before ordering.</p></article>
+      </div>
+      <div class="persona">
+        <div class="avatar">A</div>
+        <div><p class="eyebrow">PRIMARY USER</p><h3>Busy student / young professional</h3><p>“I want to find something good quickly without going through too many screens.”</p></div>
+        <div class="persona-stats"><span><b>Goal</b>Quick ordering</span><span><b>Pain point</b>Too many steps</span><span><b>Need</b>Clear information</span></div>
+      </div>
+    </section>
+
+    <section id="flow" class="section alt">
+      <p class="eyebrow">02 — UX STRUCTURE</p>
+      <h2>From discovery to delivery</h2>
+      <p class="section-intro">The main flow keeps the user's goal visible at every step.</p>
+      <div class="flow">
+        <div><b>1</b><span>Open app</span></div><i>→</i>
+        <div><b>2</b><span>Search food</span></div><i>→</i>
+        <div><b>3</b><span>Choose restaurant</span></div><i>→</i>
+        <div><b>4</b><span>Add to cart</span></div><i>→</i>
+        <div><b>5</b><span>Checkout</span></div><i>→</i>
+        <div><b>6</b><span>Track order</span></div>
+      </div>
+      <div class="wireframes">
+        <div class="wf"><span>HOME</span><div></div><div></div><div class="line"></div><div class="line short"></div></div>
+        <div class="wf"><span>SEARCH</span><div class="searchbox"></div><div></div><div></div><div class="line"></div></div>
+        <div class="wf"><span>DETAILS</span><div class="bigbox"></div><div></div><div class="line"></div><div class="line short"></div></div>
+        <div class="wf"><span>CHECKOUT</span><div></div><div></div><div></div><div class="line"></div><div class="button-wire"></div></div>
+      </div>
+    </section>
+
+    <section id="screens" class="section">
+      <p class="eyebrow">03 — HIGH-FIDELITY UI</p>
+      <h2>A focused mobile experience</h2>
+      <p class="section-intro">The interface uses clear hierarchy, familiar patterns and strong calls to action.</p>
+      <div class="screen-grid">
+        <div class="app-screen"><div class="app-head">Good evening 👋<br><small>What are you craving today?</small></div><div class="app-search">⌕ Search dishes & restaurants</div><div class="app-promo">FREE DELIVERY<br><small>on selected restaurants</small></div><h4>Categories</h4><div class="chips"><span>🍕 Pizza</span><span>🍔 Burgers</span><span>🍣 Sushi</span></div><div class="list-item">🍛 <b>Spice Garden</b><small>Indian • 4.7 ★ • 30 min</small></div></div>
+        <div class="app-screen"><div class="app-back">‹ <b>Spice Garden</b></div><div class="dish-art">🍛</div><h3>Paneer Tikka Bowl</h3><p>⭐ 4.8 &nbsp; • &nbsp; 30 min</p><p class="muted">Fresh paneer, rice, vegetables and house spices.</p><div class="price-row"><b>₹249</b><button>+ Add</button></div><hr><h4>Popular choices</h4><div class="list-item">🥘 <b>Butter Paneer</b><small>₹219 • Bestseller</small></div></div>
+        <div class="app-screen"><div class="app-back">‹ <b>Your Cart</b></div><div class="cart-item">🍛 <div><b>Paneer Tikka Bowl</b><small>₹249 × 1</small></div><b>₹249</b></div><div class="cart-item">🥤 <div><b>Fresh Lime</b><small>₹69 × 1</small></div><b>₹69</b></div><div class="summary"><span>Subtotal</span><b>₹318</b><span>Delivery</span><b>₹0</b><span>Total</span><strong>₹318</strong></div><button class="full">Proceed to checkout</button></div>
+        <div class="app-screen"><div class="app-back">‹ <b>Track Order</b></div><div class="track-icon">🛵</div><h3>On the way!</h3><p class="muted">Your order is arriving soon.</p><div class="timeline"><span class="done">✓</span><p><b>Order confirmed</b><small>10:02 AM</small></p><span class="done">✓</span><p><b>Preparing your food</b><small>10:10 AM</small></p><span class="active">•</span><p><b>Out for delivery</b><small>Expected 10:30 AM</small></p></div></div>
+      </div>
+    </section>
+
+    <section id="system" class="section alt">
+      <p class="eyebrow">04 — DESIGN SYSTEM</p>
+      <h2>Consistent components, one visual language</h2>
+      <div class="system-grid">
+        <div class="system-card"><h3>Typography</h3><p class="type-xl">Aa</p><p><b>Inter / System Sans</b><br>Bold headings • Regular body</p></div>
+        <div class="system-card"><h3>Buttons</h3><button class="btn">Primary action</button><button class="btn ghost">Secondary</button></div>
+        <div class="system-card"><h3>Components</h3><div class="component-row"><span class="pill">4.8 ★</span><span class="pill">30 min</span><span class="pill">₹249</span></div></div>
+        <div class="system-card"><h3>Design principles</h3><ul><li>Clarity first</li><li>Minimal friction</li><li>Accessible hierarchy</li><li>Consistent feedback</li></ul></div>
+      </div>
+    </section>
+
+    <section id="results" class="section">
+      <p class="eyebrow">05 — OUTCOME</p>
+      <h2>What the design aims to improve</h2>
+      <div class="results">
+        <div><strong>40%</strong><span>faster ordering goal</span></div>
+        <div><strong>28%</strong><span>conversion improvement goal</span></div>
+        <div><strong>95%</strong><span>satisfaction target</span></div>
+      </div>
+      <p class="note"><b>Note:</b> These figures are presented as project targets/expected outcomes unless validated through formal user testing.</p>
+    </section>
+
+    <section id="prototype" class="cta">
+      <p class="eyebrow">06 — PROTOTYPE & SUBMISSION</p>
+      <h2>Ready to explore the complete design?</h2>
+      <p>Add your Figma prototype URL below before publishing this project.</p>
+      <a class="btn" href="#" onclick="showPrototype(event)">Open Figma Prototype</a>
+      <p id="prototypeMessage" class="small-note"></p>
+    </section>
+  </main>
+
+  <footer>
+    <div><a class="logo" href="#home">Food<span>ie</span></a><p>Food Delivery App UX Case Study • Karmix Tech Internship</p></div>
+    <div><p>Designed & documented as a UI/UX internship project.</p></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
